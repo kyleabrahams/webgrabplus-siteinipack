@@ -1,0 +1,1 @@
+SET WG_INSTALLER_BASE_NAME=WebGrabPlus_V5.1.5_beta_install

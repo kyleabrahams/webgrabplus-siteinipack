@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
+<?xml version="1.0" encoding="utf-8"?>
+<WebGrabPlus>
+    <Settings>
+        <Setting name="loglevel">2</Setting>
+        <Setting name="output">C:\path\to\output</Setting>
+    </Settings>
+    <Providers>
+        <Provider name="example.com" enabled="true">
+            <Setting name="url">http://example.com/guide</Setting>
+            <Setting name="username">your_username</Setting>
+            <Setting name="password">your_password</Setting>
+        </Provider>
+    </Providers>
+</WebGrabPlus>
