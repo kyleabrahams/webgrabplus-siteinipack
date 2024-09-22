@@ -1,0 +1,50 @@
+﻿[        ] 
+[        ]            WebGrab+Plus/w MDB & REX Postprocess -- version  V5.1.0.0            
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]  thanks to Paul Weterings, Mat8861, Blackbear199 and all the contributing users 
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 22/09/2024 11:58:07
+[  Debug ] 
+[  Debug ] Running  on: Unix 12.7.5
+[  Debug ] Environment: 7.0.20
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: WG.common.timezone.timezonesdata.txt
+[  Debug ] Reading config file: /Users/nada/Documents/GitHub/webgrabplus-siteinipack/.wg++/./WebGrab++.config.xml
+[  Info  ] Checking License ..
+[  Info  ] For License request/update data, see WGLicense.log.txt
+[Warning ] timezone=UTC+00:00 mapped with timezone_id "Atlantic/Canary"
+[  Debug ] 
+[  Info  ] found: /Users/nada/Documents/GitHub/webgrabplus-siteinipack/.wg++/./siteini.pack/Misc/dummy.ini -- Revision 02
+[  Debug ] xmltv input file - /Users/nada/Documents/GitHub/webgrabplus-siteinipack/.wg++/guide.xml - found
+[  Debug ] 1 superfluous shows removed
+[  Info  ] Found existing channel (xmltv_id=Example) in the config file
+[  Info  ] 
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 1 - out of - 1 - channels for 1 day(s)
+[  Debug ] 
+[  Info  ] (   1/1   ) DUMMY -- chan. (xmltv_id=Example) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       Example
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           1
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        1
+
+[  Debug ] 
+[  Debug ] 1 shows in 1 channels
+[  Debug ] 0 updated shows
+[  Debug ] 1 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 22/09/2024 11:58:08 done in 0s

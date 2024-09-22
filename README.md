@@ -10,4 +10,12 @@ mv WebGrabPlus/WebGrab++.sh /webgrabplus-siteinipack
 mkdir -p /webgrabplus-siteinipack/webgrabplus-docker
 
 mv /webgrabplus-siteinipack/WebGrab++.sh ~/webgrabplus-docker/
+tar -xvf WebGrabPlus_VX.X.X.tgz -C ~/webgrabplus
 
+chmod +x run.net.sh
+
+./run.net.sh
+
+mono WebGrabPlus_V5.2_install_0.exe
+
+wine WebGrabPlus_V5.2_install_0.exe
