@@ -1,0 +1,56 @@
+2024-09-22 12:22:16,738 [MacBook-Pro-5] [1] INFO  - [ConfigMaker] Entering application.
+2024-09-22 12:25:42,221 [MacBook-Pro-5] [15] ERROR - [ConfigMaker] Failed to download siteini.pack
+An exception occurred during a WebClient request.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ConfigMaker.Commands.SiteIniPackUpdater.<DownloadFileAsync>d__18.MoveNext() in C:\Users\isako\source\repos\EPGUtils\ConfigMaker\Commands\SiteIniPackUpdater.cs:line 73
+2024-09-22 12:26:18,310 [MacBook-Pro-5] [1] INFO  - [ConfigMaker] Entering application.
+2024-09-22 12:29:35,197 [MacBook-Pro-5] [16] ERROR - [ConfigMaker] Failed to download siteini.pack
+An exception occurred during a WebClient request.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ConfigMaker.Commands.SiteIniPackUpdater.<DownloadFileAsync>d__18.MoveNext() in C:\Users\isako\source\repos\EPGUtils\ConfigMaker\Commands\SiteIniPackUpdater.cs:line 73
+2024-09-22 12:38:00,324 [MacBook-Pro-5] [1] INFO  - [ConfigMaker] Entering application.
+2024-09-22 12:41:26,473 [MacBook-Pro-5] [12] ERROR - [ConfigMaker] Failed to download siteini.pack
+An exception occurred during a WebClient request.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ConfigMaker.Commands.SiteIniPackUpdater.<DownloadFileAsync>d__18.MoveNext() in C:\Users\isako\source\repos\EPGUtils\ConfigMaker\Commands\SiteIniPackUpdater.cs:line 73
+2024-09-22 12:48:25,743 [MacBook-Pro-5] [1] INFO  - [ConfigMaker] Entering application.
+2024-09-22 12:52:13,927 [MacBook-Pro-5] [15] ERROR - [ConfigMaker] Failed to download siteini.pack
+An exception occurred during a WebClient request.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer. ---> System.Net.Sockets.SocketException: Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ConfigMaker.Commands.SiteIniPackUpdater.<DownloadFileAsync>d__18.MoveNext() in C:\Users\isako\source\repos\EPGUtils\ConfigMaker\Commands\SiteIniPackUpdater.cs:line 73

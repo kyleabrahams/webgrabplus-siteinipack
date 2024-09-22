@@ -19,3 +19,15 @@ chmod +x run.net.sh
 mono WebGrabPlus_V5.2_install_0.exe
 
 wine WebGrabPlus_V5.2_install_0.exe
+
+mono ConfigMaker.exe
+
+wine ConfigMaker.exe
+
+wine-staging ConfigMaker.exe
+
+wine ConfigMaker.exe > wine_log.txt 2>&1
+
+WINEDEBUG=+loaddll,+relay,+seh wine ConfigMaker.exe > debug_log.txt 2>&1
+
+
